@@ -2,7 +2,6 @@ from tkinter import *
 import csv
 import random
 
-
 BACKGROUND_COLOR = "#B1DDC6"
 FONT_NAME = "Ariel"
 
@@ -16,9 +15,6 @@ def next_card():
     french_translation = translation_dict[choice]["French"]
 
     card_canvas.itemconfig(french_word, text=french_translation)
-
-def flip_card():
-    pass
     
 # Window
 root = Tk()
